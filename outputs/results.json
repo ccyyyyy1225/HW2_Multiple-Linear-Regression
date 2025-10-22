@@ -1,0 +1,32 @@
+{
+  "data_used": "synthetic",
+  "shape": {
+    "n_samples": 2000,
+    "n_features": 12
+  },
+  "selector": "kbest",
+  "k": 8,
+  "metrics_train": {
+    "r2": 0.8262077428209088,
+    "rmse": 2.9506910281081735,
+    "mae": 2.377483647355593
+  },
+  "metrics_test": {
+    "r2": 0.8450264621295427,
+    "rmse": 2.9004019432112695,
+    "mae": 2.328963246128472
+  },
+  "cv_r2_scores": [
+    0.8450264621295429,
+    0.8164819259601805,
+    0.7999814320491411,
+    0.836364359478642,
+    0.8292061500478498
+  ],
+  "artifacts": {
+    "true_vs_pred": "outputs\\true_vs_pred.png",
+    "residuals": "outputs\\residuals.png",
+    "prediction_intervals_plot": "outputs\\prediction_intervals.png",
+    "prediction_intervals_csv": "outputs\\prediction_intervals.csv"
+  }
+}
